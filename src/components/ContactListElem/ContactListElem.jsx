@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const ContactListElem = ({ id, name, number, onClick }) => {
     return (
-    <li key={id}>
+    <li>
         <p>
         {name}: {number}
         </p>
